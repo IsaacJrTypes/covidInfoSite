@@ -1,3 +1,7 @@
 console.log(dayjs());
-const grabDate = document.querySelector(".date");
-console.log(grabDate);
+const grabDateContainer = document.querySelector(".date");
+console.log(grabDateContainer);
+
+const dateObject = dayjs();
+
+grabDateContainer.innerText = dateObject;
