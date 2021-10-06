@@ -18,13 +18,19 @@ body {
 
 div.container {
   background: lightblue;
-  width: 1000px;
+  width: 80%;
   margin: 0 auto; 
 }
 
-div.date {
+div.current-date {
   background: orange;
-  width: 500px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+div.shot-date {
+  background: orange;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }

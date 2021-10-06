@@ -1,7 +1,9 @@
 console.log(dayjs());
-const grabDateContainer = document.querySelector(".date");
-console.log(grabDateContainer);
+const currentDateContainer = document.querySelector(".current-date");
+const shotDateContainer = document.querySelector(".shot-date");
 
-const dateObject = dayjs();
+const currentDateObject = dayjs().format('dddd, MMM D YYYY');
+const shotDateObject = dayjs().subtract(14,'day').format('M / DD / YYYY');
 
-grabDateContainer.innerText = dateObject;
+currentDateContainer.innerText = currentDateObject;
+shotDateContainer.innerText = shotDateObject;
