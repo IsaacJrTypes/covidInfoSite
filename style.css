@@ -18,23 +18,18 @@ body {
 
 div.container {
   background: lightblue;
+  border: 3px solid black;
   width: 80%;
-  margin: 0 auto; 
+  margin: 10px auto; 
 }
 
-div.current-date {
-  background: orange;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-div.shot-date {
+div.current-date, div.last-shot-date, div.valid-test-window {
   background: orange;
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* p {
-  background: lightgoldenrodyellow;
-} */
+h2 {
+  text-align: center;
+}
