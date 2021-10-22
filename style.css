@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -9,18 +8,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
   overflow: auto;
-  background: gainsboro;
+  background: #f5f5f5;
 }
 
 div.container {
+  position: relative;
   display: flex;
   flex-direction: row;
-  background: lightblue;
+  font-size: 1.2em;
+  background: rgba(245, 245, 245, 0.815);
   border: 3px solid black;
   width: 80%;
-  margin: 1em auto; 
+  margin: 1rem auto; 
   padding: .5em;
   border-radius: .5em;
+  z-index: 10;
 }
 
 div.container.list {
@@ -32,21 +34,22 @@ div.container.asterick {
 }
 
 div.label {
-  background: rgb(117, 134, 68);
+  /* background: rgb(117, 134, 68); */
   width: 33%;
 }
 
 div.current-date, div.last-shot-date, div.valid-test-date {
-  background: orange;
- 
-
+  /* background: rgba(255, 166, 0, 0.699); */
   text-align: center;
 }
 
 
 header {
-  background-color: blueviolet;
+  position: relative;
+  z-index: 10;
+  /* background-color: rgba(137, 43, 226, 0.452); */
   text-align: center;
+  
 }
 
 h2 {
@@ -54,10 +57,31 @@ h2 {
 }
 
 ul {
-  background: darkolivegreen;
+  /* background: darkolivegreen; */
 }
 
+/* Covid background Images */
 div.covid-container {
   position: absolute;
-  
+}
+
+div.covid-container.one {
+  top: .5rem;
+  left: 1.5rem;
+}
+div.covid-container.two {
+  top: 1rem;
+  right: 1.5rem;
+}
+div.covid-container.three {
+  top: 6rem;
+  right: 13rem;
+}
+div.covid-container.four {
+  top: 11.5rem;
+  left: 14rem;
+}
+div.covid-container.five {
+  top: 21rem;
+  right: 15rem;
 }
