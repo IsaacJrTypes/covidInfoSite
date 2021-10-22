@@ -5,13 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Project</title>
+    <title>Covid Safe Calculator</title>
   </head>
   <body>
-    <div class="container">
-      <div class="current-date">DateInformationDisplayedHere</div>
-      <div class="shot-date">DateInformationDisplayedHere</div>
+    <!-- Start Covid Background Images -->
+    <div class="covid-background">
+      <div class="covid-container one med"></div>
+      <div class="covid-container two med"></div>
+      <div class="covid-container three small"></div>
+      <div class="covid-container four med"></div>
+      <div class="covid-container five small"></div>
     </div>
+    <!-- END Covid Background Images -->
+
+    <header><h1>Covid Safe Date Calculator</h1></header>
+    <div class="container date-info">
+      <div class="label">Current Date:</div>
+      <div class="current-date">Current date displayed</div>
+    </div>
+    <div class="container date-info">
+      <div class="label">*Last Shot Date:</div>
+      <div class="last-shot-date">DateInformationDisplayedHere</div>
+    </div>
+    <div class="container date-info">
+      <div class="label">72hr Test Date:</div>
+      <div class="valid-test-date">DateInformationDisplayedHere</div>
+    </div>
+    <div class="container asterick">
+      <p>*14 days prior to Today</p>
+      <p>Moderna/pFizer: 2nd Shot Date</p>
+      <p>Johnson & Johnson: Only Shot Date</p>
+    </div>
+    <div class="container list">
+      <h2>Washington State Indoor Covid Guidelines</h2>
+      <ul>
+        <li>
+          <p>
+            People ages 12 and older are required to show proof of full COVID-19
+            vaccination <br />
+            (Source:
+            <a
+              href="https://kingcounty.gov/depts/health/covid-19/current-guidance/verify.aspx?fbclid=IwAR2cKU5N_P47-0eAAwfsy65HcYu_r1S9K8-77Tcw9udiOUpYjZZJJt0Ei2E"
+              target="_blank"
+              title="Link to King County Guidelines"
+              >King County</a
+            >)
+          </p>
+        </li>
+        <li>
+          <p>
+            Negative test result (within 72hrs) required to enter certain indoor
+            and outdoor events and establishments in King County if not
+            vaccinated. <br />
+            (Source:
+            <a
+              href="https://kingcounty.gov/depts/health/covid-19/current-guidance/verify.aspx?fbclid=IwAR2cKU5N_P47-0eAAwfsy65HcYu_r1S9K8-77Tcw9udiOUpYjZZJJt0Ei2E"
+              target="_blank"
+              title="Link to King County Guidelines"
+              >King County</a
+            >)
+          </p>
+        </li>
+        <li>
+          <p>
+            Outdoor dining, grocery stores, and take-out are exempt <br />
+            (Source:
+            <a
+              href="https://publichealthinsider.com/2021/09/16/new-vaccination-requirement-for-many-activities-in-king-county/#text"
+              target="_blank"
+              title="Link to Public Health Insider"
+              >Public Health Insider</a
+            >)
+          </p>
+        </li>
+        <li><p>Info 4</p></li>
+        <li><p>Info 5</p></li>
+      </ul>
+
+      <div class="source"></div>
+
+      <div class="Update-feedback"></div>
+    </div>
+    <!-- Start Bottem Covid background Images -->
+    <div class="covid-background">
+      <div class="covid-container six lrg">6</div>
+      <div class="covid-container seven med"></div>
+    </div>
+    <!-- End Bottem Covid background Images -->
+
+    <footer>
+      <div>
+        <p>
+          Contact:
+          <a href="mailto:jimenez.isaac.jr@gmail.com"
+            >jimenez.isaac.jr@gmail.com</a
+          >
+        </p>
+      </div>
+      <div>
+        <p>
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </p>
+      </div>
+    </footer>
+
     <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
     <script src="script.js"></script>
   </body>

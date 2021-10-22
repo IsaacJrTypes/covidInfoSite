@@ -1,40 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
 }
 
 body {
   box-sizing: inherit;
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  overflow: auto;
+  background: #f5f5f5;
+  position: relative;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+  /* background-color: rgba(137, 43, 226, 0.452); */
+  text-align: center;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  /* background: darkolivegreen; */
 }
 
 div.container {
-  background: lightblue;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  background: rgba(245, 245, 245, 0.815);
+  border: 3px solid black;
   width: 80%;
-  margin: 0 auto; 
+  margin: 1rem auto; 
+  padding: .5em;
+  border-radius: .5em;
+  z-index: 10;
 }
 
-div.current-date {
-  background: orange;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-div.shot-date {
-  background: orange;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
+div.container.date-info {
+    justify-content: space-between;
 }
 
-/* p {
-  background: lightgoldenrodyellow;
-} */
+div.container.list {
+  display: block;
+}
+
+div.container.asterick {
+  display: block;
+}
+
+div.label {
+  /* background: rgb(117, 134, 68); */
+  width: 40%;
+}
+
+div.current-date, div.last-shot-date, div.valid-test-date {
+  /* background: rgba(255, 166, 0, 0.699); */
+  text-align: end;
+}
+
+/* Covid background Images */
+div.covid-background {
+  position: relative;
+  width: auto;
+  /* background-color: rgba(155, 179, 53, 0.699); */
+}
+div.covid-container {
+  position: absolute;
+  width: auto;
+  /* background: rgba(152, 251, 152, 0.712); */
+}
+
+div.covid-container.lrg {
+  background-image: url("images/coronavirus128px.png");
+  background-repeat: no-repeat;
+  width: 8rem;
+  height: 8rem;
+}
+
+div.covid-container.med {
+  background-image: url("images/coronavirus64px.png");
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+}
+div.covid-container.small {
+  background-image: url("images/coronavirus32px.png");
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+}
+
+div.covid-container.one {
+  top:.5rem;
+  left: 1.5rem;
+}
+div.covid-container.two {
+  top: 1rem;
+  right: 1.5rem;
+}
+div.covid-container.three {
+  top: 6rem;
+  right: 13rem;
+}
+div.covid-container.four {
+  top: 11.5rem;
+  left: 14rem;
+}
+div.covid-container.five {
+  top: 27rem;
+  right: 15rem;
+}
+div.covid-container.six {
+  bottom: 34rem;
+  right: 0rem;
+}
+div.covid-container.seven {
+  bottom: 25rem;
+  left: 0rem;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
