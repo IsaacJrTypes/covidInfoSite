@@ -24,9 +24,6 @@ h2 {
   text-align: center;
 }
 
-ul {
-  /* background: darkolivegreen; */
-}
 
 div.container {
   position: relative;
@@ -77,20 +74,20 @@ div.covid-container {
 }
 
 div.covid-container.lrg {
-  background-image: url("images/coronavirus128px.png");
+  background-image: url("../images/coronavirus128px.png");
   background-repeat: no-repeat;
   width: 8rem;
   height: 8rem;
 }
 
 div.covid-container.med {
-  background-image: url("images/coronavirus64px.png");
+  background-image: url("../images/coronavirus64px.png");
   background-repeat: no-repeat;
   width: 4rem;
   height: 4rem;
 }
 div.covid-container.small {
-  background-image: url("images/coronavirus32px.png");
+  background-image: url("../images/coronavirus32px.png");
   background-repeat: no-repeat;
   width: 2rem;
   height: 2rem;
