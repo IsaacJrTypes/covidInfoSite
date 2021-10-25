@@ -35,6 +35,7 @@
         style="display: none; visibility: hidden"
       ></iframe
     ></noscript>
+    <main>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Start Covid Background Images -->
     <div class="covid-background">
@@ -46,25 +47,30 @@
     </div>
     <!-- END Covid Background Images -->
 
-    <!-- Covid Information Panel -->
+    <!-- Covid Date Panel -->
     <header><h1>Covid Safe Date Calculator</h1></header>
-    <div class="container date-info">
-      <div class="label">Current Date:</div>
-      <div class="current-date">Current date displayed</div>
+    <div class="date-panel-container">
+      <div class="date-info-container">
+        <div class="container date-info tile1">
+          <div class="label">Current Date:</div>
+          <div class="current-date">Current date displayed</div>
+        </div>
+        <div class="container date-info tile2">
+          <div class="label"><b>*</b>Last Shot Date:</div>
+          <div class="last-shot-date">DateInformationDisplayedHere</div>
+        </div>
+        <div class="container date-info tile3">
+          <div class="label">72hr Test Date:</div>
+          <div class="valid-test-date">DateInformationDisplayedHere</div>
+        </div>
+      </div>
+      <div class="container asterick tile4">
+        <p><b>*</b>14 Days Prior To Today</p>
+        <p>Moderna/Pfizer: 2nd Shot Date</p>
+        <p>Johnson & Johnson: Only Shot Date</p>
+      </div>
     </div>
-    <div class="container date-info">
-      <div class="label"><b>*</b>Last Shot Date:</div>
-      <div class="last-shot-date">DateInformationDisplayedHere</div>
-    </div>
-    <div class="container date-info">
-      <div class="label">72hr Test Date:</div>
-      <div class="valid-test-date">DateInformationDisplayedHere</div>
-    </div>
-    <div class="container asterick">
-      <p><b>*</b>14 Days Prior To Today</p>
-      <p>Moderna/Pfizer: 2nd Shot Date</p>
-      <p>Johnson & Johnson: Only Shot Date</p>
-    </div>
+    <!-- Covid Guideline Information Panel -->
     <div class="container list">
       <h2>King County Indoor Covid Guidelines</h2>
       <ul>
@@ -180,6 +186,7 @@
       <div class="covid-container seven med"></div>
       <div class="covid-container eight med"></div>
     </div>
+  </main>
     <!-- End Bottem Covid background Images -->
 
     <!-- Footer -->

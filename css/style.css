@@ -126,3 +126,25 @@ div.covid-container.eight {
 footer {
   text-align: center;
 }
+
+@media all and (min-width:940px) {
+  div.date-panel-container {
+    display: flex;
+    width: 87%;
+    margin: 1em 1em 1em 5%;
+  }
+  div.date-info-container {
+    min-width: 55%;
+  }
+  div.tile4 {
+    max-width: 40%;
+  }
+  
+}
+
+@media all and (min-width:1280px) {
+  main {
+    max-width: 69%;
+    margin: auto;
+  }
+}
