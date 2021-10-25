@@ -16,7 +16,6 @@ body {
 header {
   position: relative;
   z-index: 10;
-  /* background-color: rgba(137, 43, 226, 0.452); */
   text-align: center;
   
 }
@@ -53,12 +52,10 @@ div.container.asterick {
 }
 
 div.label {
-  /* background: rgb(117, 134, 68); */
   width: 40%;
 }
 
 div.current-date, div.last-shot-date, div.valid-test-date {
-  /* background: rgba(255, 166, 0, 0.699); */
   text-align: end;
 }
 
@@ -66,12 +63,10 @@ div.current-date, div.last-shot-date, div.valid-test-date {
 div.covid-background {
   position: relative;
   width: auto;
-  /* background-color: rgba(155, 179, 53, 0.699); */
 }
 div.covid-container {
   position: absolute;
   width: auto;
-  /* background: rgba(152, 251, 152, 0.712); */
 }
 
 div.covid-container.lrg {
